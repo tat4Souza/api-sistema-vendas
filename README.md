@@ -19,6 +19,8 @@ npm install
 
 ```bash
 mysql -u root -p < src/data/database.sql
+# OU
+mysql -u root -p -e "source src/data/database.sql"  
 ```
 
 2. Copie `env.example` para `.env` e preencha com as credenciais do seu MySQL:
